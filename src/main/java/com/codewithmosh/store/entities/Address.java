@@ -33,4 +33,5 @@ public class Address {
     @JoinColumn(name = "user_id")
     @ToString.Exclude
     private User user;
+
 }
