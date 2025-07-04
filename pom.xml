@@ -106,8 +106,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>16</source> <!-- depending on your project -->
-                    <target>16</target> <!-- depending on your project -->
+                    <source>21</source>
+                    <target>21</target>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
@@ -145,10 +145,6 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-
-
-
         </plugins>
     </build>
-
 </project>
